@@ -1,0 +1,32 @@
+Asunto: Solicitud de Documentación Técnica para Integración WhatsApp - Infomed (Gesden)
+
+Hola [Nombre del Cliente/Doctor],
+
+Para finalizar la conexión del Chatbot de WhatsApp con la agenda de la clínica, necesitamos que solicitéis a vuestro contacto de soporte de **Infomed** la siguiente información técnica.
+
+Por favor, reenviadles este mensaje:
+
+---
+
+**SOLICITUD TÉCNICA A INFOMED:**
+
+Estamos desarrollando una integración externa para gestionar citas vía WhatsApp y necesitamos acceso a la API o Web Services de Gesden.
+
+Necesitamos que nos faciliten:
+
+1.  **Documentación de la API de Citas (Web Service)**: Específicamente los métodos para:
+    *   Consultar disponibilidad (`GetDisponibilidad` o similar).
+    *   Insertar nuevas citas (`SetCita` / `InsertAppointment`).
+    *   Consultar listado de tratamientos/prestaciones.
+
+2.  **Credenciales de Acceso (Entorno de Pruebas o Producción)**:
+    *   Endpoint URL (Dirección del servidor).
+    *   Usuario y Contraseña de la API.
+    *   API Key o Token (si aplica).
+
+3.  **Confirmación de Módulos Contratados**:
+    *   ¿Tiene la clínica activo el módulo de **"Cita Online"** o "Integración de Terceros"? (Sabemos que a veces es necesario para abrir el puerto).
+
+Quedamos a la espera de esta documentación para proceder con la sincronización de la agenda.
+
+---
