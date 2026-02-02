@@ -132,8 +132,11 @@ app.listen(PORT, '0.0.0.0', () => {
     console.log(`✅ Servidor en puerto ${PORT}`);
     console.log(`📡 Webhook: http://localhost:${PORT}/webhook`);
 
-    // Solo en desarrollo
-    if (process.env.NODE_ENV !== 'production') {
+    // Solo arrancar console mode en desarrollo (NO en production)
+    if (process.env.NODE_ENV === 'production') {
+        console.log('🚀 Modo PRODUCTION - servidor listo para webhooks');
+    } else {
+        console.log('🔵 Modo DEVELOPMENT - arrancando console mode');
         startConsoleMode();
     }
 });
